@@ -27,11 +27,11 @@ What are the steps required to install your project? Provide a step-by-step desc
 
 - Setup local kubernetes env as a root user  
 ```$ cd local_kubernetes_env```  
-```$ chmod +x ./setup_local_kubernetes_env.sh```  
-```$ ./setup_local_kubernetes_env.sh```  
+```$ chmod +x ./setup_local_kubernetes_env.py```  
+```$ ./setup_local_kubernetes_env.py```  
 
 - Setup local kubernetes env as a sudo user  
 ```$ cd local_kubernetes_env```  
-```$ sudo chmod +x ./setup_local_kubernetes_env.sh```  
-```$ sudo ./setup_local_kubernetes_env.sh```  
+```$ sudo chmod +x ./setup_local_kubernetes_env.py```  
+```$ sudo ./setup_local_kubernetes_env.py```  
 
