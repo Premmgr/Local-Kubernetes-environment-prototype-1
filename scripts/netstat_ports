@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+
+which netstat &> /dev/null || sudo apt install net-tools -y
+echo -e "total opened ports: \n"
+netstat -lntu | awk '{print $4,$6}' | grep -v '(only'| grep -v 'Local'
