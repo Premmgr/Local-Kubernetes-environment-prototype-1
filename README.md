@@ -1,7 +1,7 @@
 # Local kubernetes env setup
 
 ## Description
-This is experimental kubernetes local environment setup (only tested on Ubuntu 22.04)
+This is an experimental kubernetes local environment setup (only tested on Ubuntu 22.04)
 
 --------------------------------------------------
 What this project provides
